@@ -6,4 +6,12 @@ public class Main {
         secondLoop(10);
         thirdLoop(10);
         }
+    public static int firstLoop(int a){
+        int i;
+        for(i = 10;i >= 0; i--){
+            System.out.println(i);
+
+        }
+        return i;
+    }
 }

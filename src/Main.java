@@ -24,4 +24,13 @@ public class Main {
         return b;
 
     }
+
+    public static int thirdLoop(int c){
+        do{
+            System.out.println(c);
+            c--;
+        }
+        while(c >= 0);
+        return c;
+    }
 }

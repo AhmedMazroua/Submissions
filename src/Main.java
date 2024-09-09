@@ -14,4 +14,14 @@ public class Main {
         }
         return i;
     }
+
+    public static int secondLoop(int b){
+
+        while(b >= 0){
+            System.out.println(b);
+            b--;
+        }
+        return b;
+
+    }
 }
